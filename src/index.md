@@ -22,6 +22,14 @@ features:
     details: Learn how to create a new package for Bagisto and extend its functionality with custom modules, repositories, and service providers.
     icon: 📦
     link: /package-development/getting-started
+  - title: Bagisto API (REST & GraphQL)
+    details: Fast, flexible REST and GraphQL APIs to power modern commerce experiences.
+    icon: 🔌
+    link: https://api-docs.bagisto.com/
+  - title: Bagisto Headless Commerce
+    details: An API-first headless commerce framework for building scalable storefronts on web and mobile.
+    icon: 🧩
+    link: https://headless-doc.bagisto.com/
   - title: Shipping Method Development
     details: Create custom shipping methods with rate calculation, admin configuration, and integration with checkout process.
     icon: 🚚
