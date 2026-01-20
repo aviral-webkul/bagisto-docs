@@ -128,6 +128,7 @@ export default defineConfig({
           { text: 'Vite-Powered Theme Assets', link: '/theme-development/vite-powered-theme-assets' },
           { text: 'Understanding Layouts', link: '/theme-development/understanding-layouts' },
           { text: 'Blade Components', link: '/theme-development/blade-components' },
+          { text: 'Blade Tracer', link: '/theme-development/blade-tracer' },
           { text: 'Email Template', link: '/theme-development/email-template' },
           { text: 'Validation', link: '/theme-development/validation' }
         ]
