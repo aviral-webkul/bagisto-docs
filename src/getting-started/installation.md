@@ -158,19 +158,19 @@ The quickest way to get Bagisto running with Docker:
 #### Step 1: Pull Bagisto Image
 
 ```bash
-docker pull webkul/bagisto:2.3.6
+docker pull webkul/bagisto:2.3.11
 ```
 
 #### Step 2: Run Container
 
 ```bash
-docker run -it -d -p 80:80 webkul/bagisto:2.3.6
+docker run -it -d -p 80:80 webkul/bagisto:2.3.11
 ```
 
 ::: tip Port Configuration
 If port 80 is already in use, you can use a different port:
 ```bash
-docker run -it -d -p 8082:80 webkul/bagisto:2.3.6
+docker run -it -d -p 8082:80 webkul/bagisto:2.3.11
 ```
 Then access at `http://localhost:8082`
 :::

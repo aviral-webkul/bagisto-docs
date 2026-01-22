@@ -30,7 +30,7 @@ Get the latest Bagisto release:
 # Clone the latest release
 git clone https://github.com/bagisto/bagisto.git bagisto-new
 cd bagisto-new
-git checkout v2.3.6  # Replace with latest version
+git checkout v2.3.11  # Replace with latest version
 ```
 :::
 
