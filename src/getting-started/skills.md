@@ -22,116 +22,6 @@ Agent skills help with:
 - 🎯 **Smarter Code Suggestions** – Context-aware development guidance
 - 🚀 **Faster Development** – Reduce repetitive implementation work
 
-## Available Skills
-
-We currently provide two specialized AI skills:
-
-## 📦 Package Development
-
-**Skill**: `package-development`
-**Purpose**: Package development in Bagisto.
-
-**Activates when:**
-
-- Creating packages
-- Writing migrations
-- Creating models and repositories
-- Defining routes and controllers
-- Building views and localization
-- Implementing DataGrid
-- Creating menus and ACL
-- Adding system configuration
-
-Or when the user mentions:
-
-- `package`
-- `migration`
-- `model`
-- `repository`
-- `controller`
-- `DataGrid`
-- `menu`
-- `ACL`
-
-## 🚚 Shipping Method Development
-
-**Skill**: `shipping-method-development`
-**Purpose**: Shipping method development in Bagisto.
-
-**Activates when:**
-
-- Creating shipping methods
-- Integrating shipping carriers like FedEx, UPS, DHL
-- Adding delivery logic
-- Adding new shipping options to checkout
-
-Or when the user mentions:
-
-- `shipping`
-- `shipping method`
-- `shipping carrier`
-- `delivery`
-- Adding a new shipping option
-
-## 💳 Payment Method Development
-
-**Skill**: `payment-method-development`
-**Purpose**: Payment gateway development in Bagisto.
-
-**Activates when:**
-
-- Creating payment methods
-- Integrating Stripe, PayPal, or third-party processors
-- Adding new checkout payment options
-
-Or when the user mentions:
-
-- `payment`
-- `payment gateway`
-- `payment method`
-- `Stripe`
-- `PayPal`
-- Adding a new checkout payment option
-
-## 🛍️ Product Type Development
-
-**Skill**: `product-type-development`
-**Purpose**: Product type development in Bagisto.
-
-**Activates when:**
-
-- Creating custom product types
-- Defining product behaviors
-- Implementing specialized product logic
-
-Or when the user mentions:
-
-- `product type`
-- `custom product`
-- Implementing product-specific behavior
-
-## 🧪 Pest Testing
-
-**Skill**: `pest-testing`
-**Purpose**: Tests applications using the Pest 3 PHP framework.
-
-**Activates when:**
-
-- Writing unit or feature tests
-- Adding assertions
-- Testing Livewire components
-- Performing architecture testing
-- Debugging failing tests
-- Working with datasets or mocking
-- User mentions:
-  - `test`
-  - `spec`
-  - `TDD`
-  - `expects`
-  - `assertion`
-  - `coverage`
-  - Verifying functionality works
-
 ## Setup Instructions
 
 ### Install All Skills
@@ -158,35 +48,82 @@ npx skills add bagisto/agent-skills --skill "pest-testing"
 npx skills add bagisto/agent-skills --skill "payment-method-development"
 ```
 
+```bash [Shipping Method Development]
+npx skills add bagisto/agent-skills --skill "shipping-method-development"
+```
+
+```bash [Package Development]
+npx skills add bagisto/agent-skills --skill "package-development"
+```
+
+```bash [Product Type Development]
+npx skills add bagisto/agent-skills --skill "product-type-development"
+```
+
 :::
 
-### Install for a Specific AI Agent
+## Available Skills
 
-::: code-group
+We currently provide following specialized AI skills:
 
-```bash [Claude Code]
-npx skills add bagisto/agent-skills -a claude-code
-```
+### 📦 Package Development
 
-```bash [Cursor]
-npx skills add bagisto/agent-skills -a cursor
-```
+**Skill**: `package-development`
 
-:::
+**Purpose**: Package development in Bagisto.
 
-## Repository Structure
+Run the following command to install the specified skill:
 
 ```
-agent-skills/
-├── skills/
-│   ├── pest-testing/
-│   ├── payment-method-development/
-│   ├── shipping-method-development/
-│   ├── package-development/
-│   ├── product-type-development/
-│   └── ...
-├── AGENTS.md
-└── README.md
+npx skills add bagisto/agent-skills --skill "package-development"
+```
+
+### 🚚 Shipping Method Development
+
+**Skill**: `shipping-method-development`
+
+**Purpose**: Shipping method development in Bagisto.
+
+Run the following command to install the specified skill:
+
+```
+npx skills add bagisto/agent-skills --skill "shipping-method-development"
+```
+
+### 💳 Payment Method Development
+
+**Skill**: `payment-method-development`
+
+**Purpose**: Payment gateway development in Bagisto.
+
+Run the following command to install the specified skill:
+
+```
+npx skills add bagisto/agent-skills --skill "payment-method-development"
+```
+
+### 🛍️ Product Type Development
+
+**Skill**: `product-type-development`
+
+**Purpose**: Product type development in Bagisto.
+
+Run the following command to install the specified skill:
+
+```
+npx skills add bagisto/agent-skills --skill "product-type-development"
+```
+
+### 🧪 Pest Testing
+
+**Skill**: `pest-testing`
+
+**Purpose**: Tests applications using the Pest 3 PHP framework.
+
+Run the following command to install the specified skill:
+
+```
+npx skills add bagisto/agent-skills --skill "pest-testing"
 ```
 
 ## Supported AI Tools
