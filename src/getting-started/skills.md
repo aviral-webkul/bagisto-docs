@@ -57,25 +57,95 @@ We currently provide two specialized AI skills:
 
 ---
 
-### Payment Method Development
+## 💳 Payment Method Development
 
 **Skill**: `payment-method-development`
 **Purpose**: Payment gateway development in Bagisto.
 
 **Activates when:**
 
-* Creating new payment methods
-* Integrating Stripe, PayPal, or other gateways
-* Adding checkout payment options
-* Working with third-party payment processors
-* User mentions:
+* Creating payment methods
+* Integrating Stripe, PayPal, or third-party processors
+* Adding new checkout payment options
 
-  * `payment`
-  * `payment gateway`
-  * `payment method`
-  * `Stripe`
-  * `PayPal`
-  * Adding a new checkout payment option
+Or when the user mentions:
+
+* `payment`
+* `payment gateway`
+* `payment method`
+* `Stripe`
+* `PayPal`
+* Adding a new checkout payment option
+
+---
+
+## 🚚 Shipping Method Development
+
+**Skill**: `shipping-method-development`
+**Purpose**: Shipping method development in Bagisto.
+
+**Activates when:**
+
+* Creating shipping methods
+* Integrating shipping carriers like FedEx, UPS, DHL
+* Adding delivery logic
+* Adding new shipping options to checkout
+
+Or when the user mentions:
+
+* `shipping`
+* `shipping method`
+* `shipping carrier`
+* `delivery`
+* Adding a new shipping option
+
+---
+
+## 📦 Package Development
+
+**Skill**: `package-development`
+**Purpose**: Package development in Bagisto.
+
+**Activates when:**
+
+* Creating packages
+* Writing migrations
+* Creating models and repositories
+* Defining routes and controllers
+* Building views and localization
+* Implementing DataGrid
+* Creating menus and ACL
+* Adding system configuration
+
+Or when the user mentions:
+
+* `package`
+* `migration`
+* `model`
+* `repository`
+* `controller`
+* `DataGrid`
+* `menu`
+* `ACL`
+
+---
+
+## 🛍️ Product Type Development
+
+**Skill**: `product-type-development`
+**Purpose**: Product type development in Bagisto.
+
+**Activates when:**
+
+* Creating custom product types
+* Defining product behaviors
+* Implementing specialized product logic
+
+Or when the user mentions:
+
+* `product type`
+* `custom product`
+* Implementing product-specific behavior
 
 ---
 
@@ -133,9 +203,11 @@ npx skills add bagisto/agent-skills -a cursor
 agent-skills/
 ├── skills/
 │   ├── pest-testing/
-│   │   └── SKILL.md
-│   └── payment-method-development/
-│       └── SKILL.md
+│   ├── payment-method-development/
+│   ├── shipping-method-development/
+│   ├── package-development/
+│   ├── product-type-development/
+│   └── ...
 ├── AGENTS.md
 └── README.md
 ```
