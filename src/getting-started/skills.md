@@ -4,7 +4,6 @@ Enhance your Bagisto development workflow with AI-powered agent skills designed 
 
 These skills provide domain-specific, reusable intelligence for AI agents such as Claude Code, Cursor, Windsurf, and other AI-powered development tools.
 
----
 
 ## What is `bagisto/agent-skills`?
 
@@ -14,7 +13,6 @@ These skills provide domain-specific, reusable intelligence for AI agents such a
 These skills give AI agents deeper awareness of Bagisto’s architecture, testing workflows, and payment integrations — resulting in more accurate code generation and smarter development assistance.
 :::
 
----
 
 ## Benefits for Developers
 
@@ -26,7 +24,6 @@ Agent skills help with:
 * 🎯 **Smarter Code Suggestions** – Context-aware development guidance
 * 🚀 **Faster Development** – Reduce repetitive implementation work
 
----
 
 ## Available Skills
 
@@ -55,8 +52,6 @@ We currently provide two specialized AI skills:
   * `coverage`
   * Verifying functionality works
 
----
-
 ## 💳 Payment Method Development
 
 **Skill**: `payment-method-development`
@@ -77,8 +72,6 @@ Or when the user mentions:
 * `PayPal`
 * Adding a new checkout payment option
 
----
-
 ## 🚚 Shipping Method Development
 
 **Skill**: `shipping-method-development`
@@ -98,8 +91,6 @@ Or when the user mentions:
 * `shipping carrier`
 * `delivery`
 * Adding a new shipping option
-
----
 
 ## 📦 Package Development
 
@@ -128,8 +119,6 @@ Or when the user mentions:
 * `menu`
 * `ACL`
 
----
-
 ## 🛍️ Product Type Development
 
 **Skill**: `product-type-development`
@@ -147,8 +136,6 @@ Or when the user mentions:
 * `custom product`
 * Implementing product-specific behavior
 
----
-
 ## Setup Instructions
 
 ### Install All Skills
@@ -162,8 +149,6 @@ npx skills add bagisto/agent-skills
 ```
 
 :::
-
----
 
 ### Install a Specific Skill
 
@@ -179,7 +164,6 @@ npx skills add bagisto/agent-skills --skill "payment-method-development"
 
 :::
 
----
 
 ### Install for a Specific AI Agent
 
@@ -195,7 +179,6 @@ npx skills add bagisto/agent-skills -a cursor
 
 :::
 
----
 
 ## Repository Structure
 
@@ -212,8 +195,6 @@ agent-skills/
 └── README.md
 ```
 
----
-
 ## Supported AI Tools
 
 These skills are compatible with:
@@ -227,8 +208,6 @@ These skills are compatible with:
 For full AI assistance in Bagisto projects, install all skills. If you work in a specific area (like testing or payments), install only the relevant skill.
 :::
 
----
-
 ## Best Practices
 
 ### Skill Management
@@ -240,5 +219,3 @@ For full AI assistance in Bagisto projects, install all skills. If you work in a
 ::: warning Important
 Ensure the skills are installed in the correct environment where your AI agent operates, otherwise activation may not work properly.
 :::
-
----
