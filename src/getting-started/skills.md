@@ -4,7 +4,6 @@ Enhance your Bagisto development workflow with AI-powered agent skills designed 
 
 These skills provide domain-specific, reusable intelligence for AI agents such as Claude Code, Cursor, Windsurf, and other AI-powered development tools.
 
-
 ## What is `bagisto/agent-skills`?
 
 `bagisto/agent-skills` is a collection of specialized AI skills that improve how AI tools understand and work within a Bagisto codebase.
@@ -13,84 +12,19 @@ These skills provide domain-specific, reusable intelligence for AI agents such a
 These skills give AI agents deeper awareness of Bagisto’s architecture, testing workflows, and payment integrations — resulting in more accurate code generation and smarter development assistance.
 :::
 
-
 ## Benefits for Developers
 
 Agent skills help with:
 
-* 🧪 **Structured Testing Workflows** – Generate Pest tests with proper assertions and architecture patterns
-* 💳 **Payment Gateway Integrations** – Implement Stripe, PayPal, and custom gateways correctly
-* 🏗️ **Bagisto Architecture Awareness** – Follow package and module conventions
-* 🎯 **Smarter Code Suggestions** – Context-aware development guidance
-* 🚀 **Faster Development** – Reduce repetitive implementation work
-
+- 🧪 **Structured Testing Workflows** – Generate Pest tests with proper assertions and architecture patterns
+- 💳 **Payment Gateway Integrations** – Implement Stripe, PayPal, and custom gateways correctly
+- 🏗️ **Bagisto Architecture Awareness** – Follow package and module conventions
+- 🎯 **Smarter Code Suggestions** – Context-aware development guidance
+- 🚀 **Faster Development** – Reduce repetitive implementation work
 
 ## Available Skills
 
 We currently provide two specialized AI skills:
-
-### Pest Testing
-
-**Skill**: `pest-testing`
-**Purpose**: Tests applications using the Pest 3 PHP framework.
-
-**Activates when:**
-
-* Writing unit or feature tests
-* Adding assertions
-* Testing Livewire components
-* Performing architecture testing
-* Debugging failing tests
-* Working with datasets or mocking
-* User mentions:
-
-  * `test`
-  * `spec`
-  * `TDD`
-  * `expects`
-  * `assertion`
-  * `coverage`
-  * Verifying functionality works
-
-## 💳 Payment Method Development
-
-**Skill**: `payment-method-development`
-**Purpose**: Payment gateway development in Bagisto.
-
-**Activates when:**
-
-* Creating payment methods
-* Integrating Stripe, PayPal, or third-party processors
-* Adding new checkout payment options
-
-Or when the user mentions:
-
-* `payment`
-* `payment gateway`
-* `payment method`
-* `Stripe`
-* `PayPal`
-* Adding a new checkout payment option
-
-## 🚚 Shipping Method Development
-
-**Skill**: `shipping-method-development`
-**Purpose**: Shipping method development in Bagisto.
-
-**Activates when:**
-
-* Creating shipping methods
-* Integrating shipping carriers like FedEx, UPS, DHL
-* Adding delivery logic
-* Adding new shipping options to checkout
-
-Or when the user mentions:
-
-* `shipping`
-* `shipping method`
-* `shipping carrier`
-* `delivery`
-* Adding a new shipping option
 
 ## 📦 Package Development
 
@@ -99,25 +33,65 @@ Or when the user mentions:
 
 **Activates when:**
 
-* Creating packages
-* Writing migrations
-* Creating models and repositories
-* Defining routes and controllers
-* Building views and localization
-* Implementing DataGrid
-* Creating menus and ACL
-* Adding system configuration
+- Creating packages
+- Writing migrations
+- Creating models and repositories
+- Defining routes and controllers
+- Building views and localization
+- Implementing DataGrid
+- Creating menus and ACL
+- Adding system configuration
 
 Or when the user mentions:
 
-* `package`
-* `migration`
-* `model`
-* `repository`
-* `controller`
-* `DataGrid`
-* `menu`
-* `ACL`
+- `package`
+- `migration`
+- `model`
+- `repository`
+- `controller`
+- `DataGrid`
+- `menu`
+- `ACL`
+
+## 🚚 Shipping Method Development
+
+**Skill**: `shipping-method-development`
+**Purpose**: Shipping method development in Bagisto.
+
+**Activates when:**
+
+- Creating shipping methods
+- Integrating shipping carriers like FedEx, UPS, DHL
+- Adding delivery logic
+- Adding new shipping options to checkout
+
+Or when the user mentions:
+
+- `shipping`
+- `shipping method`
+- `shipping carrier`
+- `delivery`
+- Adding a new shipping option
+
+## 💳 Payment Method Development
+
+**Skill**: `payment-method-development`
+**Purpose**: Payment gateway development in Bagisto.
+
+**Activates when:**
+
+- Creating payment methods
+- Integrating Stripe, PayPal, or third-party processors
+- Adding new checkout payment options
+
+Or when the user mentions:
+
+- `payment`
+- `payment gateway`
+- `payment method`
+- `Stripe`
+- `PayPal`
+- Adding a new checkout payment option
 
 ## 🛍️ Product Type Development
 
@@ -126,15 +100,37 @@ Or when the user mentions:
 
 **Activates when:**
 
-* Creating custom product types
-* Defining product behaviors
-* Implementing specialized product logic
+- Creating custom product types
+- Defining product behaviors
+- Implementing specialized product logic
 
 Or when the user mentions:
 
-* `product type`
-* `custom product`
-* Implementing product-specific behavior
+- `product type`
+- `custom product`
+- Implementing product-specific behavior
+
+## 🧪 Pest Testing
+
+**Skill**: `pest-testing`
+**Purpose**: Tests applications using the Pest 3 PHP framework.
+
+**Activates when:**
+
+- Writing unit or feature tests
+- Adding assertions
+- Testing Livewire components
+- Performing architecture testing
+- Debugging failing tests
+- Working with datasets or mocking
+- User mentions:
+  - `test`
+  - `spec`
+  - `TDD`
+  - `expects`
+  - `assertion`
+  - `coverage`
+  - Verifying functionality works
 
 ## Setup Instructions
 
@@ -164,7 +160,6 @@ npx skills add bagisto/agent-skills --skill "payment-method-development"
 
 :::
 
-
 ### Install for a Specific AI Agent
 
 ::: code-group
@@ -178,7 +173,6 @@ npx skills add bagisto/agent-skills -a cursor
 ```
 
 :::
-
 
 ## Repository Structure
 
@@ -199,10 +193,10 @@ agent-skills/
 
 These skills are compatible with:
 
-* Claude Code
-* Cursor IDE
-* Windsurf
-* Any AI agent supporting the `skills` CLI
+- Claude Code
+- Cursor IDE
+- Windsurf
+- Any AI agent supporting the `skills` CLI
 
 ::: tip Getting Started
 For full AI assistance in Bagisto projects, install all skills. If you work in a specific area (like testing or payments), install only the relevant skill.
@@ -212,9 +206,9 @@ For full AI assistance in Bagisto projects, install all skills. If you work in a
 
 ### Skill Management
 
-* Install only the skills relevant to your workflow
-* Keep skills updated alongside Bagisto upgrades
-* Use clear prompts to trigger the correct skill activation
+- Install only the skills relevant to your workflow
+- Keep skills updated alongside Bagisto upgrades
+- Use clear prompts to trigger the correct skill activation
 
 ::: warning Important
 Ensure the skills are installed in the correct environment where your AI agent operates, otherwise activation may not work properly.
