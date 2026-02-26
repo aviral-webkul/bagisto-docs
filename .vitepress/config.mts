@@ -55,7 +55,8 @@ export default defineConfig({
           { text: 'Contribution Guide', link: '/getting-started/contribution-guide' },
           { text: 'Best Security Practices', link: '/getting-started/best-security-practice' },
           { text: 'Deployment', link: '/getting-started/deployment' },
-          { text: 'LLMs.txt', link: '/getting-started/llms' }
+          { text: 'LLMs.txt', link: '/getting-started/llms' },
+          { text: 'Skills',link: '/getting-started/skills'}
         ]
       },
       {
