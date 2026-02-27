@@ -40,26 +40,34 @@ npx skills add bagisto/agent-skills
 
 ::: code-group
 
-```bash [Pest Testing]
-npx skills add bagisto/agent-skills --skill "pest-testing"
-```
 
-```bash [Payment Method Development]
-npx skills add bagisto/agent-skills --skill "payment-method-development"
-```
-
-```bash [Shipping Method Development]
-npx skills add bagisto/agent-skills --skill "shipping-method-development"
-```
-
-```bash [Package Development]
+```[Package Development]
 npx skills add bagisto/agent-skills --skill "package-development"
 ```
 
-```bash [Product Type Development]
+```[Shipping Method Development]
+npx skills add bagisto/agent-skills --skill "shipping-method-development"
+```
+
+```[Payment Method Development]
+npx skills add bagisto/agent-skills --skill "payment-method-development"
+```
+
+```[Product Type Development]
 npx skills add bagisto/agent-skills --skill "product-type-development"
 ```
 
+```[Shop Theme Development]
+npx skills add bagisto/agent-skills --skill "shop-theme-development"
+```
+
+```[Admin Theme Development]
+npx skills add bagisto/agent-skills --skill "admin-theme-development"
+```
+
+```[Pest Testing]
+npx skills add bagisto/agent-skills --skill "pest-testing"
+```
 :::
 
 ## Available Skills
@@ -112,6 +120,30 @@ Run the following command to install the specified skill:
 
 ```
 npx skills add bagisto/agent-skills --skill "product-type-development"
+```
+
+### 🛍️ Shop Theme Development
+
+**Skill**: `shop-theme-development`
+
+**Purpose**: Shop theme development in Bagisto.
+
+Run the following command to install the specified skill:
+
+```
+npx skills add bagisto/agent-skills --skill "shop-theme-development"
+```
+
+### 🛠️ Admin Theme Development
+
+**Skill**: `admin-theme-development`
+
+**Purpose**: Admin theme development in Bagisto.
+
+Run the following command to install the specified skill:
+
+```
+npx skills add bagisto/agent-skills --skill "admin-theme-development"
 ```
 
 ### 🧪 Pest Testing
